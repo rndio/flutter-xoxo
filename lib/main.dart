@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:form_login/screens/login_page.dart';
+import 'package:form_login/screens/auth/login_page.dart';
 
 void main() {
   runApp(const MainApp());
@@ -12,7 +12,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Login App',
+        title: 'Flutter XoxO',
         home: LoginPage());
   }
 }
